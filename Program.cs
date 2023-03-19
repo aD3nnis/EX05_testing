@@ -196,9 +196,14 @@ namespace Downloads
             Console.WriteLine("Give an item: ");
              string category_Name = Console.ReadLine();
              Console.WriteLine("Give a maximum cost: ");
-                int max_cost = int.Parse(Console.ReadLine());
-               
-                string sql = "SELECT  Category, `standard cost`, `product name`" +   
+                 int max_cost;
+                bool isValid = int.TryParse(Console.ReadLine(), out max_cost);
+                // the above code is used when we do not know if the user inputted a number
+                // out means it is outputting based off the weather max_cost is a int or not and that boolean value is given
+                // to isValid
+                if (isValid) {
+                     //Console.WriteLine(" is Valid ");             
+                    string sql = "SELECT  Category, `standard cost`, `product name`" +   
                 " FROM northwind.Products" +
                 " WHERE `standard cost` < @max_cost AND Category = '" + category_Name + "'";  
              //   double max_cost = 20;
@@ -226,6 +231,13 @@ namespace Downloads
             catch (MySqlException ex) {
                 Console.WriteLine(ex.Message);
             }
+                    // code to execute if max_cost is a valid integer
+                } else {
+                     Console.WriteLine(" is not a valid number ");
+                    // code to execute if max_cost is not a valid integer
+                }
+               
+
 
         }
 
