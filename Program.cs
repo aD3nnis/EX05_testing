@@ -28,7 +28,7 @@ namespace Downloads
                 cmd.Parameters.AddWithValue("@shipping_fee", maxfee); // this relates to the double max fee in that
                 // the double max fee is what is replaccing the shipping fee in the query
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
-
+                Console.WriteLine("Company" + ": " + "Last Name");
                 while (rdr.Read()) { // this reas through and the data like reading through a file
                     Console.WriteLine(rdr["Company"] + ": " + rdr["Last Name"]);
                 }
@@ -61,7 +61,7 @@ namespace Downloads
                // cmd.Parameters.AddWithValue("@shipping_fee", maxfee); // this relates to the double max fee in that
                 // the double max fee is what is replaccing the shipping fee in the query
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
-
+                Console.WriteLine("list price" + ": " + "standard cost" + ": " + "profit");
                 while (rdr.Read()) { // this reas through and the data like reading through a file
                     Console.WriteLine(rdr["list price"] + ": " + rdr["standard cost"] + ": " + rdr["profit"]);
                 }
@@ -93,7 +93,7 @@ namespace Downloads
                // cmd.Parameters.AddWithValue("@shipping_fee", maxfee); // this relates to the double max fee in that
                 // the double max fee is what is replaccing the shipping fee in the query
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
-
+                Console.WriteLine("min" + ": " + "max" + ": " + "average");
                 while (rdr.Read()) { // this reas through and the data like reading through a file
                     Console.WriteLine(rdr["min"] + ": " + rdr["max"] + ": " + rdr["average"]);
                 }
@@ -128,6 +128,7 @@ namespace Downloads
                 Console.WriteLine("Name a product kind: ");
                 string product_Kind = Console.ReadLine();
                 bool name_Exists = false;
+                Console.WriteLine("category" + ": " + "count");
                 while ((rdr.Read())) { // this reas through and the data like reading through a file
                 if (rdr["category"].ToString() == product_Kind){ // this should get rid of SQL Injection attacks.
                     Console.WriteLine(rdr["category"] + ": " + rdr["count"]);
@@ -169,6 +170,7 @@ namespace Downloads
                 // the double max fee is what is replaccing the shipping fee in the query
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
                 bool word_Exists = false;
+                Console.WriteLine("product name");
                 while (rdr.Read()) { // this reas through and the data like reading through a file
                     if (rdr["product name"].ToString().Contains(answer)){
                        Console.WriteLine(rdr["product name"]);
@@ -219,6 +221,7 @@ namespace Downloads
                     MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
                     bool name_Exists = false;
                     // bool cost_Exists = false;
+                    Console.WriteLine("category" + ": " + "standard cost" + ": " + "product name");
                     while (rdr.Read()) { // this reas through and the data like reading through a file
                         name_Exists = true;
                         Console.WriteLine(rdr["category"] + ": " + rdr["standard cost"]  + ": " + rdr["product name"]);
@@ -263,6 +266,7 @@ namespace Downloads
                 bool name_Exists = false;
                 while (rdr.Read()) { // this reas through and the data like reading through a file
                     name_Exists = true;
+                    Console.WriteLine("Shipper ID" + ": " + "Ship City");
                     if (rdr["Shipper ID"] != null){ // why does this not get rid of the NULL value?
                         Console.WriteLine(rdr["Shipper ID"] + ": " + rdr["Ship City"]);                    
                     }
@@ -298,6 +302,7 @@ namespace Downloads
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
                 bool name_Exists = false;
                // bool cost_Exists = false;
+                Console.WriteLine("Job Title");
                 while (rdr.Read()) { // this reas through and the data like reading through a file
                     name_Exists = true;
                     Console.WriteLine(rdr["Job Title"]);
@@ -329,6 +334,7 @@ namespace Downloads
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
                
                // bool cost_Exists = false;
+                Console.WriteLine("Shipped Date" + ": " + "name");
                 while (rdr.Read()) { // this reads through and the data like reading through a file
                     if (!rdr.IsDBNull(rdr.GetOrdinal("Shipped Date"))){//(rdr["Shipped Date"] != null){
                     // NULL to NULL comparision will always be null which is why the above is what we use to parse out null values
@@ -357,7 +363,8 @@ namespace Downloads
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
                
-               // bool cost_Exists = false;
+                // bool cost_Exists = false;
+                Console.WriteLine("max" + ": " + "min" + ": " + "average");
                 while (rdr.Read()) { // this reads through and the data like reading through a file
                     // NULL to NULL comparision will always be null which is why the above is what we use to parse out null values
                     Console.WriteLine(rdr["max"] + ": " + rdr["min"] + ": " + rdr["average"]);//
@@ -384,7 +391,7 @@ namespace Downloads
 
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader(); // executes the sql code
-               
+                Console.WriteLine("Ship City" + ": " + "max" + ": " + "min" + ": " + "average");
                // bool cost_Exists = false;
                 while (rdr.Read()) { // this reads through and the data like reading through a file
                     // NULL to NULL comparision will always be null which is why the above is what we use to parse out null values
