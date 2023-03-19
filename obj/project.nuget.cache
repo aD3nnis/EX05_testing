@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ogZCS8pm893kfDGApn+Yz53Ez2kMGr2cRuhe0cnr7QzxgAdeMIixNKIvc0K/aXX4sSB+AlVjqWZ8542wCqBOg==",
+  "success": true,
+  "projectFilePath": "/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/EX05_testing.csproj",
+  "expectedPackageFiles": [
+    "/Users/avadennis/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}

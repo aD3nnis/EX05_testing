@@ -1,0 +1,17 @@
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.csproj.AssemblyReference.cache
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.AssemblyInfoInputs.cache
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.AssemblyInfo.cs
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.csproj.CoreCompileInputs.cache
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/bin/Debug/net7.0/EX05_testing
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/bin/Debug/net7.0/EX05_testing.deps.json
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/bin/Debug/net7.0/EX05_testing.runtimeconfig.json
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/bin/Debug/net7.0/EX05_testing.dll
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/bin/Debug/net7.0/EX05_testing.pdb
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/bin/Debug/net7.0/MySqlConnector.dll
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.csproj.CopyComplete
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.dll
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/refint/EX05_testing.dll
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.pdb
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/EX05_testing.genruntimeconfig.cache
+/Users/avadennis/Documents/Whitworth_2022-23/Spring_Semester/Database_managment/EX/ALL_EX05/EX05_testing/obj/Debug/net7.0/ref/EX05_testing.dll
